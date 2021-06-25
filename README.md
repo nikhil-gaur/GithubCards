@@ -21,3 +21,8 @@ The app is made using React Js. It's completely Responsive. 
 7. Used Cloud Firestore Database for storing fetched data.
 8. Used Material UI for Icons
 
+Preview of app:
+
+![2021-06-25 (1)](https://user-images.githubusercontent.com/65936182/123423448-321a3880-d5dd-11eb-9f02-d8ff828f237a.png)
+![2021-06-25 (3)](https://user-images.githubusercontent.com/65936182/123423454-33e3fc00-d5dd-11eb-93db-d8fbf8886fa0.png)
+![2021-06-25 (8)](https://user-images.githubusercontent.com/65936182/123423455-33e3fc00-d5dd-11eb-84ed-4bda0aac5802.png)
