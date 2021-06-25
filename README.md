@@ -1,6 +1,7 @@
 Live on: https://githubcards-fafdb.web.app/
 
-I made the app live on: https://githubcards-fafdb.web.app/ (Hoisted using firebase).
+I made the app live on: https://githubcards-fafdb.web.app/  
+(Hoisted using firebase).
 
 To Run the app on your local, Follow Steps:
 
