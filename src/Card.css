@@ -1,0 +1,40 @@
+.card {
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 2px solid lightgrey;
+    margin-bottom: 30px;
+    width: 200px;
+    position: relative;
+    border-radius: 5px;
+    cursor: alias;
+    padding-bottom: 15px;
+}
+
+.card:hover {
+    box-shadow: 2px 2px skyblue;
+    border: 2px solid skyblue;
+}
+
+.userImage {
+    max-width: 190px;
+    margin: 6px;
+    height: auto;
+}
+
+.closeIcon {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+}
+
+.card > h1 {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.card > p {
+    font-size: small;
+    font-weight: 600;
+    margin-left: 10px;
+}

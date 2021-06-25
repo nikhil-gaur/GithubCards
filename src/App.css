@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.sorter {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin: 20px;
+}
+
+.sorter > h1 {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.sorter > select {
+  width: 20%;
+  height: 30px;
+  color: rgb(60, 60, 236);
+  border: 2px solid lightgrey;
+  min-width: 81px;
+  font-weight: 750;
+
+}
+
+.adder {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  margin-left: 5vw;
+}
+
+.adder > form > input{
+    height: 30px;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid lightgrey;
+    outline: none;
+    padding-left: 3px;
+}
+
+.adder > form > button {
+  padding: 5px;
+  margin-left: 5px;
+  background-color: #3C5898;
   color: white;
+  font-size: 15px;
+  border-radius: 5px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.userCards {
+  display: flex;
+  flex: 0 0 33.333333%;
+  flex-flow: row wrap;
+  justify-content: center;
 }
